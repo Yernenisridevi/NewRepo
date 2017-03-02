@@ -1,0 +1,50 @@
+.container {
+    width:500px;
+    height:500px;
+    position:relative;
+    border:1px solid #CCC;
+}
+    form {
+        position:absolute;
+        left:10px;
+        top:10px;
+    }
+    form.form0 {
+        left:11px;
+        top:11px;
+        opacity:0.1;
+    }
+    form.form1 {
+        left:8px;
+        top:8px;
+        opacity:0.1;
+        zoom:1.02;
+    }
+    form.form2 {
+        left:11px;
+        top:11px;
+        opacity:0.1;
+        zoom:1.01;
+    }
+    form.form3 {
+        left:9px;
+        top:9px;
+        opacity:0.2;
+    }
+    form.form4 {
+        left:11px;
+        top:11px;
+        opacity:0.1;
+    }
+
+    .overlay {
+        width:250px;
+        height:250px;
+        margin-top:50px;
+        margin-left:auto;
+        margin-right:auto;
+        border:1px solid #666;
+/*        background:#FFF;*/
+    }
+    
+    
